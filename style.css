@@ -17,7 +17,8 @@ a:hover {
     text-decoration: none;
     cursor: pointer;
 }
-
+/* id used in js file */
+/* gif doesn't exist */
 #page-loading-blocs-notifaction {
     position: fixed;
     top: 0;

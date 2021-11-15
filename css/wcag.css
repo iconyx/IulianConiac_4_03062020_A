@@ -1,0 +1,14 @@
+.wcag-hidden {
+    height: 1px;
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    top: -10000px;
+    width: 1px;
+}
+
+.req {
+    font-variant: none;
+    text-decoration-line: none;
+    font-size: 150%;
+}
