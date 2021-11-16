@@ -12,3 +12,6 @@
     text-decoration-line: none;
     font-size: 150%;
 }
+abbr {
+    border-bottom: none!important;
+}

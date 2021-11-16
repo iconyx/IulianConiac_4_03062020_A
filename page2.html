@@ -7,10 +7,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
     <link rel="shortcut icon" type="image/png" href="favicon.jpg">
     
-	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
+	<!-- <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css"> -->
 	<link rel="stylesheet" type="text/css" href="style.css">
-	<link rel="stylesheet" type="text/css" href="./css/font-awesome.min.css">
-	<link rel="stylesheet" type="text/css" href="./css/et-line.min.css">
+	<link rel="stylesheet" type="text/css" href="./css/font-awesome.css">
+	<link rel="stylesheet" type="text/css" href="./css/et-line.css">
+	<!-- <link rel="stylesheet" type="text/css" href="./css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="./css/et-line.min.css"> -->
 	<link rel="stylesheet" type="text/css" href="./css/wcag.css">
 	
     
@@ -58,7 +61,7 @@
 </div>
 <!-- bloc-0 END -->
 
-<!-- bloc-6 -->
+<!-- bloc-6 hero for contact page -->
 <div class="bloc bg-dots-bg bg-repeat bgc-dark-slate-blue d-bloc bloc-bg-texture texture-paper" id="bloc-6">
 	<div class="container bloc-lg">
 		<div class="row">
@@ -79,30 +82,29 @@
 <div class="bloc bgc-white l-bloc" id="bloc-7">
 	<div class="container bloc-lg">
 		<div class="row">
-			<div class="col-sm-6">
+			<div class="col-sm-6" aria-labelledby="contact-form-fields-group">
+				<h2 id="contact-form-fields-group">Contact form</h2>
+				<p>Required fields are marked with an asterisk (*)</p>
 				<form id="form_1" novalidate success-msg="Your message has been sent." fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
-					<!-- grouping elements of the form and indicate a label for this group with aria-labelledby -->
-					<div role="group" aria-labelledby="contact-form-fields-group">
-						<p id="contact-form-fields-group">Contact form</p>
-						<p>Required fields are marked with an asterisk (*)</p>
+					<div>
 						<div class="form-group">
 							<label for="name">Name<abbr class="req" title="required">*</abbr></label>
-							<input id="name" class="form-control" required />
+							<input id="name" class="form-control" name="name" placeholder="Enter your full name"required />
 						</div>
 						<div class="form-group">
 							<label for="email">Email<abbr class="req" title="required">*</abbr></label>
-							<input id="email" class="form-control" type="email" aria-describedby="email-format" placeholder="account@server.domain" required />
+							<input id="email" class="form-control" type="email"  name="email" aria-describedby="email-format" placeholder="Enter your email" required />
 							<span id="email-format" class="wcag-hidden">account@server.domain</span>
 						</div>
 						<div class="form-group">
 							<label for="input_504">How did you find me?<abbr class="req" title="required">*</abbr></label>
-							<input id="input_504" class="form-control" type="email" required />
+							<input id="input_504" class="form-control" type="email" name="input_504" placeholder="i.e. Google, social media, recommendation" required />
 						</div>
 						<div class="form-group">
 							<label for="message">Project brief<abbr class="req" title="required">*</abbr> (Please be as detailed as possible including your company goals and any improvements you&rsquo;d like to have over your current website)<br></label>
-							<textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
+							<textarea id="message" class="form-control" rows="4" cols="50"  name="message" placeholder="Enter project details" required></textarea>
 						</div>
-						<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit" aria-label="Submit completed form">Let's go Mike</button>
+						<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit" value="submit" aria-label="Submit completed form">Let's go Mike</button>
 					</div>
 				</form>
 			</div>
