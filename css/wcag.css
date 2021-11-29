@@ -22,3 +22,23 @@ abbr {
 .wcag-current-page {
     border-bottom: 1px solid rgb(83, 83, 88);
 }
+#bloc-2-services h3, 
+#bloc-3-what-i-do h3, 
+#bloc-4-portfolio h3 {
+    font-size: 36px;
+    font-weight: 400;
+    text-transform: none;
+}
+
+#bloc-2-services blockquote {
+    margin: 0px;
+}
+#bloc-2-services blockquote>p {
+    font-style: italic;
+    color: #090942;
+    font-size: 100%;
+}
+
+figcaption {
+    color:#2d2d2d;
+}
