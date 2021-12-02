@@ -42,3 +42,33 @@ abbr {
 figcaption {
     color:#2d2d2d;
 }
+
+.partners {
+    padding: 0;
+}
+
+.partners li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 0px 20px 20px 20px;
+    /* font-size: 120%; */
+}
+
+@media (max-width: 767px){
+    .partners li {
+        justify-content: center;
+        display: flex;
+    }
+    .social {
+        display: flex;
+        justify-content: space-around;
+    }
+}
+
+.partners a {
+    color: #ff9f72;
+}
+
+.partners a:hover {
+    color: #fff;
+}
