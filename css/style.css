@@ -287,7 +287,8 @@ a:hover {
 }
 
 #bloc-2-services p {
-    font-size: 11px;
+    /* font-size: 11px; */
+    font-size: 1em;
 }
 
 .navbar {
@@ -298,7 +299,8 @@ a:hover {
 .navbar-brand {
     height: auto;
     padding: 3px 15px;
-    font-size: 25px;
+    /* font-size: 25px; */
+    font-size: 1.6rem;
     font-weight: normal;
     font-weight: 600;
     line-height: 44px;
@@ -329,6 +331,7 @@ a:hover {
     float: left;
     margin-top: 4px;
     font-size: 16px;
+    font-size: 1.6em;
 }
 
 .navbar-nav .open .dropdown-menu > li > a {
@@ -680,7 +683,7 @@ a {
 }
 
 p {
-    font-size: 12px;
+    font-size: 16px;
 }
 
 .tight-width-whitespace {
@@ -689,7 +692,7 @@ p {
 }
 
 .h1 {
-    font-size: 20px;
+    font-size: 24px;
     font-family: "Open Sans";
 }
 
@@ -713,7 +716,7 @@ h2 {
 }
 
 h3 {
-    font-size: 15px;
+    font-size: 18px;
     text-transform: uppercase;
     font-weight: 700;
     color: #333333!important;
@@ -731,6 +734,10 @@ h1 {
 
 h4 {
     color: #333333!important;
+}
+
+h4 {
+    font-size: 16px;
 }
 
 .icons {

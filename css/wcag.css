@@ -25,7 +25,8 @@ abbr {
 #bloc-2-services h3, 
 #bloc-3-what-i-do h3, 
 #bloc-4-portfolio h3 {
-    font-size: 36px;
+    /* font-size: 36px; */
+    font-size: 3rem;
     font-weight: 400;
     text-transform: none;
 }
